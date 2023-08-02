@@ -1,2 +1,0 @@
-# PySparktest
-PySpark running example 
