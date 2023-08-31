@@ -17,7 +17,7 @@ class PySparkTest(unittest.TestCase):
     @classmethod
     def suppress_py4j_logging(cls):
         logger = logging.getLogger('py4j')
-        logger.setLevel(logging.warn())
+        logger.setLevel(logging.info())
 
     @classmethod
     def create_testing_pyspark_session(cls):
